@@ -1,0 +1,53 @@
+:root {
+  --main-color: #757575;
+  --accent-color: #2196f3;
+  --sub-color: #212121;
+} /* основний колір тесту: #757575; */
+/* допоміжний колір тексту: #212121 */
+/*  */
+/* body */
+.body {
+  background: #ffffff;
+}
+/* header */
+.list {
+  list-style: none;
+}
+.list-nav .link {
+  color: #060606;
+}
+.list-nav :hover {
+  color: var(--accent-color);
+}
+.list-nav :focus {
+  color: var(--accent-color);
+}
+.list-contact .link {
+  color: var(--main-color);
+}
+.list-contact :hover {
+  color: var(--accent-color);
+}
+.list-contact :focus {
+  color: var(--accent-color);
+}
+/* main */
+
+/* hero */
+.hero {
+  width: 1600;
+  height: 600;
+  background-color: #2f303a;
+}
+.title {
+  font-size: 44px;
+}
+.button {
+  cursor: pointer;
+}
+.button :hover {
+  color: var(--accent-color);
+}
+.button :active {
+  color: red;
+}
