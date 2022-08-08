@@ -2,7 +2,9 @@
   --main-color: #757575;
   --accent-color: #2196f3;
   --sub-color: #212121;
-} /* основний колір тесту: #757575; */
+  --bg-color: #ffffff;
+}
+/* основний колір тесту: #757575; */
 /* допоміжний колір тексту: #212121 */
 /*  */
 /* body */
@@ -10,6 +12,9 @@
   background: #ffffff;
 }
 /* header */
+.header {
+  background-color: var();
+}
 .list {
   list-style: none;
 }
@@ -31,23 +36,56 @@
 .list-contact :focus {
   color: var(--accent-color);
 }
+
 /* main */
 
 /* hero */
 .hero {
-  width: 1600;
-  height: 600;
+  color: #ffffff;
   background-color: #2f303a;
 }
-.title {
-  font-size: 44px;
-}
-.button {
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
   cursor: pointer;
 }
-.button :hover {
-  color: var(--accent-color);
+
+/* чим ми кращі */
+.privileges {
+  background-color: #e5e5e5;
 }
-.button :active {
-  color: red;
+.privileges-title {
+  color: var(--sub-color);
+}
+.privileges-subtitle {
+  color: var(--main-color);
+}
+/* чим займаємось */
+.we-do {
+  background-color: #e5e5e5;
+  color: var(--sub-color);
+}
+
+/* команда */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  color: var(--sub-color);
+}
+.team-subtitle {
+  color: var(--main-color);
+}
+/* підвал */
+
+.footer {
+  background-color: #2f303a;
+}
+.address {
+  color: #ffffff;
+}
+.link-footer {
+  text-decoration: none;
+  color: (255, 255, 255, 0.6);
 }
